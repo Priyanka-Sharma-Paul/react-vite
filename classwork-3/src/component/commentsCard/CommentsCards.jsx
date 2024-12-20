@@ -1,7 +1,7 @@
-import Comments from "../../data/comment";
+import Comments from "../../data/comments";
 
 
-const CommentsCard = () => {
+const CommentsCards = () => {
     return (
         <div>
             {
@@ -31,4 +31,4 @@ const CommentsCard = () => {
     );
 
 };
-export default CommentsCard;
+export default CommentsCards;
