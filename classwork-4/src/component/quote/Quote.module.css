@@ -1,0 +1,31 @@
+.quoteList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 96px;
+}
+
+.quoteContainer {
+    padding: 32px;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.quote{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(17, 24, 39);
+    line-height: 36px;
+}
+
+.author{
+    margin-top: 12px;
+    color: rgb(130, 131, 134);
+    font-size: 18px;
+
+}
