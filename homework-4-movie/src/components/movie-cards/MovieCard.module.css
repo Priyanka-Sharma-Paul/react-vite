@@ -1,0 +1,85 @@
+.movieContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    position: relative;
+    display: flex;
+    background: #121212;
+    border-radius: 12px;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .poster {
+    width: 150px;
+    border-radius: 12px 0 0 12px;
+    object-fit: cover;
+  }
+  
+  .details {
+    padding: 1rem;
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .meta {
+    font-size: 1rem;
+    color: #aaaaaa;
+  }
+  
+  .duration {
+    background: #333;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 0.5rem 0;
+  }
+  
+  .genres {
+    font-size: 0.9rem;
+    color: #cccccc;
+  }
+  
+  .description {
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .actions button {
+    margin-right: 0.5rem;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    background: white;
+    color: #121212;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
