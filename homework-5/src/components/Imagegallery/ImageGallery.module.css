@@ -1,9 +1,13 @@
+.galleryPara {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .imageContainer {
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
 }
 
 .imageCard {
@@ -24,4 +28,20 @@
     border-radius: 10px;
     object-fit: cover;
     height: 100%;
+}
+
+.selectedImage {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.selectedHeading {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.selectedImg {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
 }
