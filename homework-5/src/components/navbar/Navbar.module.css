@@ -1,0 +1,11 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 4px #0000001a;
+    padding: 10px;
+    background: white;
+}
+
+.navbar h1 {
+    text-align: center;
+}
